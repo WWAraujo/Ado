@@ -1,5 +1,8 @@
 package org.example.factory;
 
 public interface Produto {
-    void exibirDetahes();
+    void exibirDetalhes();
+
+    double getPreco();
+
 }

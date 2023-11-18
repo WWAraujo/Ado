@@ -1,8 +1,8 @@
 package org.example.strategy;
 
-public class PagamentoBoleto implements FormaPagamento{
+public class PagamentoBoleto  implements FormaPagamentoStrategy {
     @Override
     public void processarPagamento(double valor) {
-        // Logica para processar o pagamento com boleto
+        System.out.println("Pagamento de R$" + valor + " realizado com Boleto.");
     }
 }
