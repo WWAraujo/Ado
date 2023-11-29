@@ -1,7 +1,5 @@
 package org.example.factory;
 
-import org.example.service.ProdutoFicticio;
-
 public class FabricaProduto {
     protected String nome;
     protected double preco;

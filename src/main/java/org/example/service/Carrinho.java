@@ -19,7 +19,7 @@ public class Carrinho {
         } else {
             System.out.println("Carrinho de compras:");
             for (Produto produto : itens) {
-                System.out.println("- " + produto.getClass().getSimpleName());
+                System.out.println("- " + produto);
             }
         }
     }
